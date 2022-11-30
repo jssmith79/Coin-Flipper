@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
             percentHeads = Math.round((numberHeads/total) * 100)
             percentHeadsText.textContent = `${percentHeads}%`
             percentTails = Math.round((numberTails/total) * 100)
-            percentTailsText.textContent = `${percentHeads}%`
+            percentTailsText.textContent = `${percentTails}%`
 
         // Update the scorboard
         // TODO: Calculate the total number of rolls/flips
